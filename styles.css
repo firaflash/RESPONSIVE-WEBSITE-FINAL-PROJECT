@@ -218,6 +218,7 @@ figure:hover a::after {
     font-weight: bold; /* Make it bold */
     font-size: 16px; /* Adjust the font size */
     font-family: Arial, sans-serif; /* Set the font */
+    transition: 0.3s;
 }
 
 figure:hover {
@@ -301,6 +302,7 @@ figure:hover {
 
 .links a:hover {
     transform: translateY(-8px);
+    transition: 0.4s;
 }
 
 footer {
@@ -359,4 +361,5 @@ footer i:hover {
 /* Add smooth scrolling */
 html {
     scroll-behavior: smooth;
+    transition: 0.3s;
 }
